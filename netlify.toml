@@ -1,6 +1,6 @@
 # Netlify configuration for Next.js
 [build]
-  command = "npm run build"
+  command = "npm install --legacy-peer-deps && npm run build"
   publish = ".next"
   # For static export, use: publish = "out"
   # functions = "netlify/functions"  # Uncomment if using Netlify Functions
